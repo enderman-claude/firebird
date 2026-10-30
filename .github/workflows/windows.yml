@@ -1,6 +1,7 @@
 name: Build for Windows
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master, ci/windows ]
   pull_request:
